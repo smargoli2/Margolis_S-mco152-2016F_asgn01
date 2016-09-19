@@ -12,6 +12,8 @@ public class Hello {
 		Integer sum = Adder.Add(num1, num2);
 		System.out.println("The sum is " + sum);
 		
+		Integer diff = Subtractor.subtract(num1, num2);
+		System.out.println("The difference is " + diff);
 		keyboard.close();
 	}
 
